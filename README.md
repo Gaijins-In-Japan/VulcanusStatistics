@@ -7,3 +7,15 @@ What we are trying to "data mining" is:
 - How many placements these companies offers and how many are actually filled
 - Which departments are the ones who actually select people more often?
 - IDK, propose it!
+
+### data.json
+This json contains the placement information of each year
+```
+{
+    "year": {
+        "company name": {
+            "department": [number of vacancies, vacancies filled]
+        }
+    }
+}
+```
