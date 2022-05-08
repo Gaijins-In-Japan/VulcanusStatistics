@@ -1,5 +1,16 @@
 {
     "2020-2021": {
+        "participants": {
+            "preselected": 0,
+            "selected": 0,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
         "Pretia Technologies": {
             "R&D": [1, 0]
         },
@@ -49,6 +60,17 @@
         }
     },
     "2021-2022": {
+        "participants": {
+            "preselected": 0,
+            "selected": 0,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
         "Asial Corporation": {
             "Engineering Division": [4, 0]
         },
