@@ -54,6 +54,323 @@
             "Unknown": [1, 1]
         },
         "Hitachi Kasado": {
+            "Unknown": [2, 2]
+        }
+    },
+    "2012-2013": {
+        "participants": {
+            "preselected": 0,
+            "selected": 20,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "JGC Corporation": {
+            "Unknown": [1, 1]
+        },
+        "NTT Communication Science": {
+            "Unknown": [2, 2]
+        },
+        "Mitsubishi": {
+            "Unknown": [1, 1]
+        },
+        "Fujitsu Laboratories": {
+            "Unknown": [1, 1]
+        },
+        "NTT Data": {
+            "Unknown": [1, 1]
+        },
+        "NEC Cooperation": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [1, 1]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Works": {
+            "Unknown": [1, 1]
+        },
+        "TUV Rheinland Japan": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Kasado": {
+            "Unknown": [1, 1]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [1, 1]
+        },
+        "Village Island": {
+            "Unknown": [1, 1]
+        },
+        "Fujistsu Limited": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [2, 2]
+        },
+        "Schlubmerger": {
+            "Unknown": [1, 1]
+        }
+    },
+    "2013-2014": {
+        "participants": {
+            "preselected": 0,
+            "selected": 26,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "JGC Corporation": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Kasado": {
+            "Unknown": [2, 2]
+        },
+        "NEC Cooperation": {
+            "Unknown": [1, 1]
+        },
+        "Mitsubishi Chemical": {
+            "Unknown": [2, 2]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "NTT Communication Science": {
+            "Unknown": [4, 4]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [5, 5]
+        },
+        "NTT Data": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [1, 1]
+        },
+        "Fujitsu Laboratories": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [4, 4]
+        },
+        "Hitachi Works": {
+            "Unknown": [1, 1]
+        },
+        "Village Island": {
+            "Unknown": [1, 1]
+        }
+    },
+    "2014-2015": {
+        "participants": {
+            "preselected": 0,
+            "selected": 45,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "Kamakuraya": {
+            "Unknown": [1, 1]
+        },
+        "Nippon Kayaku": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Kasado": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Machinery": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [8, 8]
+        },
+        "Asial Corporation": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [6, 6]
+        },
+        "NTT Data": {
+            "Unknown": [3, 3]
+        },
+        "Village Island": {
+            "Unknown": [1, 1]
+        },
+        "Fujitsu Laboratories": {
+            "Unknown": [2, 2]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [3, 3]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "JGC Corporation": {
+            "Unknown": [1, 1]
+        },
+        "NTT Communication Science": {
+            "Unknown": [4, 4]
+        },
+        "MCHC R&D Synergy": {
+            "Unknown": [1, 1]
+        },
+        "Schlubmerger": {
+            "Unknown": [1, 1]
+        },
+        "Mitsubishi Chemical": {
+            "Unknown": [2, 2]
+        },
+        "TUV Rheinland Japan": {
+            "Unknown": [1, 1]
+        },
+        "Daikin": {
+            "Unknown": [1, 1]
+        },
+        "Nikon and Esssilor Join Research Center": {
+            "Unknown": [1, 1]
+        },
+        "Murakami Kaimeido": {
+            "Unknown": [1, 1]
+        }
+    },
+    "2015-2016": {
+        "participants": {
+            "preselected": 0,
+            "selected": 49,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "Hitachi Tsuchiura Works": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [5, 5]
+        },
+        "Hitachi-Ge Nuclear Energy": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Kasado": {
+            "Unknown": [1, 1]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [5, 5]
+        },
+        "NTT Data": {
+            "Unknown": [1, 1]
+        },
+        "NTT Communication Science": {
+            "Unknown": [5, 5]
+        },
+        "Fujitsu Laboratories": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [6, 6]
+        },
+        "Asial Corporation": {
+            "Unknown": [4, 4]
+        },
+        "Square-Enix": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Industrial Equipment Systems": {
+            "Unknown": [2, 2]
+        },
+        "Mitsubishi Chemical": {
+            "Unknown": [2, 2]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "TUV Rheinland Japan": {
+            "Unknown": [1, 1]
+        },
+        "Goldman Sachs Japan": {
+            "Unknown": [3, 3]
+        },
+        "Nippon Kayaku": {
+            "Unknown": [1, 1]
+        },
+        "Mikuni Corporation": {
+            "Unknown": [1, 1]
+        },
+        "PEC Japan": {
+            "Unknown": [1, 1]
+        },
+        "Asia Air Survey": {
+            "Unknown": [1, 1]
+        }
+    },
+    "2018-2019": {
+        "participants": {
+            "preselected": 0,
+            "selected": 30,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "Hitachi Research & Development": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Chemical": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [4, 4]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [1, 1]
+        },
+        "Nippon Kayaku": {
+            "Unknown": [1, 1]
+        },
+        "Asial Corporation": {
+            "Unknown": [2, 2]
+        },
+        "NTT Data": {
+            "Unknown": [2, 2]
+        },
+        "Goldman Sachs Japan": {
+            "Unknown": [4, 4]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "NTT Communication Science": {
+            "Unknown": [3, 3]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [4, 4]
+        },
+        "NTT Media Intelligence": {
+            "Unknown": [4, 4]
+        },
+        "Fujitsu Laboratories": {
+            "Unknown": [2, 2]
+        },
+        "Mitsubishi Chemical": {
             "Unknown": [1, 1]
         }
     },
@@ -117,6 +434,7 @@
             "Robotics Group": [2, 2]
         }
     },
+    
     "2021-2022": {
         "participants": {
             "preselected": 0,
