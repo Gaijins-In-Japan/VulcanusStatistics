@@ -1,4 +1,62 @@
 {
+    "2011-2012": {
+        "participants": {
+            "preselected": 0,
+            "selected": 30,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "NTT CS Laboratory": {
+            "Unknown": [5, 5]
+        },
+        "Fujisoft Incorporated": {
+            "Unknown": [1, 1]
+        },
+        "NTT Basic Research Laboratories": {
+            "Unknown": [4, 4]
+        },
+        "Fujistsu Limited": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Research Laboratory": {
+            "Unknown": [2, 2]
+        },
+        "Hitachi Central Research Laboratory": {
+            "Unknown": [2, 2]
+        },
+        "Schlubmerger": {
+            "Unknown": [2, 2]
+        },
+        "TUV Rheinland Japan": {
+            "Unknown": [2, 2]
+        },
+        "Mitsubishi Chemical": {
+            "Unknown": [3, 3]
+        },
+        "AIST": {
+            "Unknown": [1, 1]
+        },
+        "NTT Data": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Works": {
+            "Unknown": [1, 1]
+        },
+        "IBM Japan": {
+            "Unknown": [1, 1]
+        },
+        "Yasui Architects": {
+            "Unknown": [1, 1]
+        },
+        "Hitachi Kasado": {
+            "Unknown": [1, 1]
+        }
+    },
     "2020-2021": {
         "participants": {
             "preselected": 0,
@@ -18,45 +76,45 @@
             "R&D": [1, 0]
         },
         "Square-Enix": {
-            "Advanced Technology Division": [1, 0]
+            "Advanced Technology Division": [1, 1]
         },
         "Mitsubishi Materials": {
-            "Smart Factory Center": [2, 0]
+            "Smart Factory Center": [2, 2]
         },
         "Asial Corporation": {
-            "Engineering Division": [4, 0]
+            "Engineering Division": [4, 4]
         },
         "Advanet": {
-            "IoT Business Solution": [2, 0]
+            "IoT Business Solution": [2, 2]
         },
         "Mitsubishi Chemical": {
-            "Science & Innovation": [2, 0],
-            "Chemical Laboratory": [5, 0]
+            "Science & Innovation": [2, 1],
+            "Chemical Laboratory": [5, 1]
         },
-        "NTT Research Laboratories": {
-            "Physics Research Group": [2, 0]
+        "NTT Basic Research Laboratories": {
+            "Quantum Solid State Physics Research Group": [2, 2]
         },
         "Goldman Sachs Japan": {
-            "Engineering": [2, 0]
+            "Engineering": [2, 2]
         },
         "NTT Data": {
-            "System Engineering": [2, 0],
-            "Science Laboratories Media Information": [3, 0]
+            "System Engineering": [2, 1],
+            "Science Laboratories Media Information": [3, 3]
         },
         "Rakuten": {
-            "Innovation Studio": [3, 0]
+            "Innovation Studio": [3, 1]
         },
         "Fujitsu Laboratories": {
-            "ICT Systems Laboratory": [1, 0],
+            "ICT Systems Laboratory": [1, 1],
             "DevOps Unit": [2, 0],
-            "Logistics & Financial": [2, 0],
-            "Digital Innovation Core": [3, 0]
+            "Logistics & Financial": [2, 2],
+            "Digital Innovation Core": [3, 3]
         },
         "Solarig Japan": {
             "Unknown": [2, 0]
         },
         "Omron Sinic X": {
-            "Robotics Group": [2, 0]
+            "Robotics Group": [2, 2]
         }
     },
     "2021-2022": {
@@ -72,13 +130,13 @@
             }
         },
         "Asial Corporation": {
-            "Engineering Division": [4, 0]
+            "Engineering Division": [4, 4]
         },
         "Omron Sinic X": {
             "Robotics Group": [2, 0]
         },
         "Yasui Architects": {
-            "Design Department": [1, 0]
+            "Design Department": [1, 1]
         },
         "Square-Enix": {
             "Advanced Technology Division": [1, 1]
@@ -99,14 +157,15 @@
             "Data & Security Lab.": [1, 0],
             "Advanced Computing Project": [1, 0]
         },
-        "NTT Research Laboratories": {
-            "NTT Research": [2, 2]
+        "NTT Basic Research Laboratories": {
+            "NTT Research": [1, 1],
+            "Quantum Solid State Physics Research Group": [1, 1]
         },
         "Advanet": {
-            "IoT Business Solutions": [2, 0]
+            "IoT Business Solutions": [2, 1]
         },
         "NTT Data.": {
-            "Science Laboratories Media Information": [2, 0]
+            "Science Laboratories Media Information": [2, 1]
         }
     }
 }
