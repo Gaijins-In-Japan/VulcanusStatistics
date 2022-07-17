@@ -17,18 +17,50 @@ body section {
   color: inherit;
 }
 
-.pt-6 {
-  padding-top: 6rem !important;
+
+
+
+
+
+
+
+
+/*****************/
+
+.bd-gray-100 {
+  color:#000 !important;
+  background-color:#f8f9fa
 }
-.pb-6 {
-  padding-bottom: 6rem !important;
+.bd-gray-300 {
+  color:#000 !important;
+  background-color:#dee2e6
+}
+.bd-gray-500 {
+  color:#000;
+  background-color:#adb5bd
+}
+.bd-gray-700 {
+  color:#fff;
+  background-color:#495057
+}
+.bd-gray-900 {
+  color:#fff;
+  background-color:#212529
 }
 
-#profile-pict {
-  border-radius: 50%;
-  max-width: 100%;
+.bd-orange-500 {
+  color: black !important;
+  background-color: #fd7e14;
 }
-
-/* ======  MEDIA QUERY SECTION START ====== */
-
-/* <<<<<<  MEDIA QUERY SECTION END >>>>>> */
+.bd-yellow-500 {
+  color:#000 !important;
+  background-color:#ffc107
+}
+.bd-green-500 {
+  color: white !important;
+  background-color: #198754;
+}
+.bd-teal-500 {
+  color: black !important;
+  background-color: #20c997;
+}

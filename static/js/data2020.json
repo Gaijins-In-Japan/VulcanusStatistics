@@ -1,0 +1,62 @@
+{
+    "2020-2021": {
+        "participants": {
+            "preselected": 0,
+            "selected": 0,
+            "selected-info": {
+                "interviewed": [0, 0],
+                "informed": [0, 0],
+                "studies": [0, 0, 0, 0],
+                "japan": [0, 0],
+                "jlpt": [0, 0, 0, 0, 0, 0]
+            }
+        },
+        "Pretia Technologies": {
+            "R&D": [1, 0]
+        },
+        "Showa Denko Materials": {
+            "R&D": [1, 0]
+        },
+        "Square-Enix": {
+            "Advanced Technology Division": [1, 0]
+        },
+        "Mitsubishi Materials": {
+            "Smart Factory Center": [2, 0]
+        },
+        "Asial Corporation": {
+            "Engineering Division": [4, 0]
+        },
+        "Advanet": {
+            "IoT Business Solution": [2, 0]
+        },
+        "Mitsubishi Chemical": {
+            "Science & Innovation": [2, 0],
+            "Chemical Laboratory": [5, 0]
+        },
+        "NTT Research Laboratories": {
+            "Physics Research Group": [2, 0]
+        },
+        "Goldman Sachs Japan": {
+            "Engineering": [2, 0]
+        },
+        "NTT Data": {
+            "System Engineering": [2, 0],
+            "Science Laboratories Media Information": [3, 0]
+        },
+        "Rakuten": {
+            "Innovation Studio": [3, 0]
+        },
+        "Fujitsu Laboratories": {
+            "ICT Systems Laboratory": [1, 0],
+            "DevOps Unit": [2, 0],
+            "Logistics & Financial": [2, 0],
+            "Digital Innovation Core": [3, 0]
+        },
+        "Solarig Japan": {
+            "Unknown": [2, 0]
+        },
+        "Omron Sinic X": {
+            "Robotics Group": [2, 0]
+        }
+    }
+}
