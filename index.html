@@ -52,14 +52,22 @@
           </li>
         </ul>
          <div class="" id="content">
-              <div id="chart">
+              <div id="chart" class="mb-3">
               </div>
-              <div id="times">
+              <div id="times" class="mb-3">
                   <h3> Times of this edition </h3>
+                  <h4 class="text-center">From <span id="startdate"></span> to <span id="enddate"></span></h4>
+                  <p class="">Preselected where informed on <span id="preselected"></span></p>
+                  <p class="">Selected where informed on <span id="selected"></span></p>
+                  <p class="">Was there a 2nd round? <span id="second-round"></span>
+                      <span id="second-details">
+                          <br>From <span id="second-round-start"></span> to <span id="second-round-ends"></span>
+                      </span>
+                  </p>
               </div>
-              <div id="map">
+              <div id="map" class="mb-3">
               </div>
-              <div id="questions">
+              <div id="questions" class="mb-3">
                   <h3> Questions to the selected </h3>
                   <div class="mt-4">
                     <h4>Before being selected, had you been interviewed by the company?</h4>
@@ -84,7 +92,7 @@
                             99+
                         </span>
                       </span>
-                      <span id=informed-no" class="badge bg-danger position-relative me-4">No
+                      <span id="informed-no" class="badge bg-danger position-relative me-4">No
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             99+
                         </span>
@@ -134,6 +142,11 @@
                   <div>
                     <h4>What is your current JLPT level?</h4>
                     <p>
+                      <span id="jlpt-n0" class="badge bd-gray-900 position-relative me-4">None
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                        </span>
+                      </span>
                       <span id="jlpt-n5" class="badge bd-gray-900 position-relative me-4">N5
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             99+
