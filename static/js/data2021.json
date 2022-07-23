@@ -1,52 +1,58 @@
 {
-    "2021-2022": {
-        "participants": {
-            "preselected": 0,
-            "selected": 22,
-            "selected-info": {
-                "interviewed": [4, 4],
-                "informed": [2, 6],
-                "studies": [0, 0, 8, 0],
-                "japan": [3, 5],
-                "jlpt": [5, 2, 0, 1, 0, 0]
-            }
-        },
-        "Asial Corporation": {
-            "Engineering Division": [4, 0]
-        },
-        "Omron Sinic X": {
-            "Robotics Group": [2, 0]
-        },
-        "Yasui Architects": {
-            "Design Department": [1, 0]
-        },
-        "Square-Enix": {
-            "Advanced Technology Division": [1, 1]
-        },
-        "Mitsubishi Materials": {
-            "Smart Factory Center": [1, 0]
-        },
-        "Mujin": {
-            "Core Engineering": [3, 3]
-        },
-        "Westlake Akishima": {
-            "R&D": [1, 0]
-        },
-        "Fujistsu Limited": {
-            "Autonomous Learning": [2, 1],
-            "Discovery Mathematics Project": [1, 1],
-            "Optimization Computing": [1, 0],
-            "Data & Security Lab.": [1, 0],
-            "Advanced Computing Project": [1, 1]
-        },
-        "NTT Research Laboratories": {
-            "NTT Research": [2, 2]
-        },
-        "Advanet": {
-            "IoT Business Solutions": [2, 1]
-        },
-        "NTT Data.": {
-            "Science Laboratories Media Information": [2, 1]
+    "dates": {
+        "start": "November",
+        "end": "20th January",
+        "preselection": "25th February",
+        "selection": "29th April",
+        "second-round-start": "~15th May",
+        "second-round-ends": "8th June"
+    },
+    "participants": {
+        "preselected": 0,
+        "selected": 22,
+        "selected-info": {
+            "interviewed": [5, 9],
+            "informed": [3, 11],
+            "studies": [1, 0, 13, 0],
+            "japan": [3, 11],
+            "jlpt": [10, 2, 0, 1, 0, 0]
         }
+    },
+    "Asial Corporation": {
+        "Engineering Division": [4, 0]
+    },
+    "Omron Sinic X": {
+        "Robotics Group": [2, 0]
+    },
+    "Yasui Architects": {
+        "Design Department": [1, 0]
+    },
+    "Square-Enix": {
+        "Advanced Technology Division": [1, 1]
+    },
+    "Mitsubishi Materials": {
+        "Smart Factory Center": [1, 0]
+    },
+    "Mujin": {
+        "Core Engineering": [3, 3]
+    },
+    "Westlake Akishima": {
+        "R&D": [1, 0]
+    },
+    "Fujistsu Limited": {
+        "Autonomous Learning": [2, 1],
+        "Discovery Mathematics Project": [1, 1],
+        "Optimization Computing": [1, 0],
+        "Data & Security Lab.": [1, 0],
+        "Advanced Computing Project": [1, 1]
+    },
+    "NTT Research Laboratories": {
+        "NTT Research": [2, 2]
+    },
+    "Advanet": {
+        "IoT Business Solutions": [2, 1]
+    },
+    "NTT Data.": {
+        "Science Laboratories Media Information": [2, 1]
     }
 }
