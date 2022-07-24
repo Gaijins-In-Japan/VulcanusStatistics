@@ -1,4 +1,4 @@
-function load_map() {
+function load_map(participantsCountries) {
     fetch('https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json')
         .then((r) => r.json())
         .then((data) => {
@@ -10,15 +10,20 @@ function load_map() {
             const chart = new Chart(document.getElementById('map').getContext('2d'), {
                 type: 'choropleth',
                 data: {
-                    labels: countries.map((d) => d.properties.name),
+                    labels: countries.map((d) => d.properties.geounit),
                     datasets: [
                         {
                             label: 'Countries',
                             outline: countries,
-                            data: countries.map((d) => ({
-                                feature: d,
-                                value: Math.random(),
-                            })),
+                            data: countries.map((d) => {
+                                const countryName = d.properties.geounit;
+                                const count = countryName in participantsCountries? participantsCountries[countryName]: 0;
+
+                                return {
+                                    feature: d,
+                                    value: count,
+                                }
+                            }),
                         },
                     ],
                 },
@@ -32,7 +37,7 @@ function load_map() {
                     },
                     scales: {
                         xy: {
-                            projection: "mercator",
+                            projection: "equalEarth",
                         },
                     },
                 },
@@ -41,7 +46,7 @@ function load_map() {
 }
 
 function load_year(year) {
-    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/main/static/js/data" + year + ".json";
+    const path = "static/js/data" + year + ".json";
     $.getJSON(path, function (data) {
         // Chart
 
@@ -63,7 +68,7 @@ function load_year(year) {
         }
 
         // Map
-        load_map();
+        load_map(data["participants"]["selected-info"]["countries"]);
 
         // Questions
         let selected_poll = data['participants']['selected-info'];
