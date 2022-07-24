@@ -14,6 +14,10 @@
     <script type="text/javascript" src="static/js/jquery-3.6.0.min.js" defer></script>
     <script type="text/javascript" src="static/js/script.js" defer></script>
     <script type="text/javascript" src="static/style/bootstrap/js/bootstrap.min.js" defer></script>
+
+    <!-- chartjs -->
+    <script src="https://unpkg.com/chart.js@3.8.0/dist/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3.8.1/build/index.umd.min.js"></script>
   </head>
 
   <body>
@@ -65,8 +69,10 @@
                       </span>
                   </p>
               </div>
-              <div id="map" class="mb-3">
-              </div>
+              
+              <!-- Map -->
+              <canvas id="map" class="mb-3"></canvas>
+
               <div id="questions" class="mb-3">
                   <h3> Questions to the selected </h3>
                   <div class="mt-4">

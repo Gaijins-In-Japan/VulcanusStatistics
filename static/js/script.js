@@ -1,6 +1,44 @@
+function load_map() {
+    fetch('https://unpkg.com/world-atlas/countries-50m.json')
+        .then((r) => r.json())
+        .then((data) => {
+            const countries = ChartGeo.topojson.feature(data, data.objects.countries).features;
+
+            const chart = new Chart(document.getElementById('map').getContext('2d'), {
+                type: 'choropleth',
+                data: {
+                    labels: countries.map((d) => d.properties.name),
+                    datasets: [
+                        {
+                            label: 'Countries',
+                            data: countries.map((d) => ({
+                                feature: d,
+                                value: Math.random(),
+                            })),
+                        },
+                    ],
+                },
+                options: {
+                    showOutline: true,
+                    showGraticule: true,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                    },
+                    scales: {
+                        xy: {
+                            projection: 'equalEarth',
+                        },
+                    },
+                },
+            });
+        });
+}
+
 function load_year(year) {
-    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/main/static/js/data"+year+".json";
-    $.getJSON(path, function(data) {
+    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/main/static/js/data" + year + ".json";
+    $.getJSON(path, function (data) {
         // Chart
 
         // Dates
@@ -21,6 +59,7 @@ function load_year(year) {
         }
 
         // Map
+        load_map();
 
         // Questions
         let selected_poll = data['participants']['selected-info'];
@@ -47,13 +86,13 @@ function load_year(year) {
     });
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     let year = $("#pills-tab .nav-link.active").attr("year");
 
     load_year(year);
 
-    $("#pills-tab .nav-link").on("click", function() {
+    $("#pills-tab .nav-link").on("click", function () {
         year = $("this").attr("year");
         load_year(year);
     });
