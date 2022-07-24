@@ -1,8 +1,11 @@
 function load_map() {
-    fetch('https://unpkg.com/world-atlas/countries-50m.json')
+    fetch('https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json')
         .then((r) => r.json())
         .then((data) => {
-            const countries = ChartGeo.topojson.feature(data, data.objects.countries).features;
+            const countries = ChartGeo.topojson.feature(data, data.objects.continent_Europe_subunits).features;
+            const projection = d3.geoConicConformalEurope();
+
+            projection.fitWidth = (size, object) => projection.fitSize([size, 1000], object);
 
             const chart = new Chart(document.getElementById('map').getContext('2d'), {
                 type: 'choropleth',
@@ -11,6 +14,7 @@ function load_map() {
                     datasets: [
                         {
                             label: 'Countries',
+                            outline: countries,
                             data: countries.map((d) => ({
                                 feature: d,
                                 value: Math.random(),
@@ -20,7 +24,7 @@ function load_map() {
                 },
                 options: {
                     showOutline: true,
-                    showGraticule: true,
+                    showGraticule: false,
                     plugins: {
                         legend: {
                             display: false,
@@ -28,7 +32,7 @@ function load_map() {
                     },
                     scales: {
                         xy: {
-                            projection: 'equalEarth',
+                            projection: "mercator",
                         },
                     },
                 },
