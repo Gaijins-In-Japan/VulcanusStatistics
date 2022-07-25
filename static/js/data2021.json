@@ -11,6 +11,17 @@
         "preselected": 0,
         "selected": 22,
         "selected-info": {
+            "countries": {
+                "Belgium": 1,
+                "Cyprus": 2,
+                "France": 1,
+                "Germany": 1,
+                "Greece": 1,
+                "Italy": 3,
+                "Poland": 1,
+                "Portugal": 2,
+                "Spain": 6
+            },
             "interviewed": [5, 9],
             "informed": [3, 11],
             "studies": [1, 0, 13, 0],

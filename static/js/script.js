@@ -1,6 +1,54 @@
+function load_map(participantsCountries) {
+
+    fetch('https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json')
+        .then((r) => r.json())
+        .then((data) => {
+            const countries = ChartGeo.topojson.feature(data, data.objects.continent_Europe_subunits).features;
+            const projection = d3.geoConicConformalEurope();
+
+            projection.fitWidth = (size, object) => projection.fitSize([size, 1000], object);
+
+            const chart = new Chart(document.getElementById('map').getContext('2d'), {
+                type: 'choropleth',
+                data: {
+                    labels: countries.map((d) => d.properties.geounit),
+                    datasets: [
+                        {
+                            label: 'Countries',
+                            outline: countries,
+                            data: countries.map((d) => {
+                                const countryName = d.properties.geounit;
+                                const count = countryName in participantsCountries? participantsCountries[countryName]: 0;
+
+                                return {
+                                    feature: d,
+                                    value: count,
+                                }
+                            }),
+                        },
+                    ],
+                },
+                options: {
+                    showOutline: true,
+                    showGraticule: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                    },
+                    scales: {
+                        xy: {
+                            projection: "equalEarth",
+                        },
+                    },
+                },
+            });
+        });
+}
+
 function load_year(year) {
-    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/main/static/js/data"+year+".json";
-    $.getJSON(path, function(data) {
+    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/map/static/js/data"+ year +".json";
+    $.getJSON(path, function (data) {
         // Chart
 
         // Dates
@@ -21,6 +69,7 @@ function load_year(year) {
         }
 
         // Map
+        load_map(data["participants"]["selected-info"]["countries"]);
 
         // Questions
         let selected_poll = data['participants']['selected-info'];
@@ -47,13 +96,13 @@ function load_year(year) {
     });
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     let year = $("#pills-tab .nav-link.active").attr("year");
 
     load_year(year);
 
-    $("#pills-tab .nav-link").on("click", function() {
+    $("#pills-tab .nav-link").on("click", function () {
         year = $("this").attr("year");
         load_year(year);
     });
