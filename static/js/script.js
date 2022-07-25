@@ -1,4 +1,5 @@
 function load_map(participantsCountries) {
+
     fetch('https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json')
         .then((r) => r.json())
         .then((data) => {
@@ -46,7 +47,7 @@ function load_map(participantsCountries) {
 }
 
 function load_year(year) {
-    const path = "static/js/data" + year + ".json";
+    const path = "https://raw.githubusercontent.com/Gaijins-In-Japan/VulcanusStatistics/map/static/js/data"+ year +".json";
     $.getJSON(path, function (data) {
         // Chart
 
