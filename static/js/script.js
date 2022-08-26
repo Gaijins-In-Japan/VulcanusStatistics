@@ -1,4 +1,8 @@
+let chart;
+
 function load_map(participantsCountries) {
+    if (chart)
+        chart.destroy();
 
     fetch('https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json')
         .then((r) => r.json())
@@ -8,7 +12,7 @@ function load_map(participantsCountries) {
 
             projection.fitWidth = (size, object) => projection.fitSize([size, 1000], object);
 
-            const chart = new Chart(document.getElementById('map').getContext('2d'), {
+            chart = new Chart(document.getElementById('map').getContext('2d'), {
                 type: 'choropleth',
                 data: {
                     labels: countries.map((d) => d.properties.geounit),
@@ -18,7 +22,7 @@ function load_map(participantsCountries) {
                             outline: countries,
                             data: countries.map((d) => {
                                 const countryName = d.properties.geounit;
-                                const count = countryName in participantsCountries? participantsCountries[countryName]: 0;
+                                const count = countryName in participantsCountries ? participantsCountries[countryName]: 0;
 
                                 return {
                                     feature: d,
@@ -96,14 +100,31 @@ function load_year(year) {
     });
 }
 
+function active_navitems() {
+    /* Add/remove active class from nav items
+     * */
+    $("nav .navbar-nav .nav-link").removeClass("active");
+    $(this).addClass("active");
+}  // i'm sure these 2 functions can be merged
+function active_pillitems() {
+    /* Add/remove active class from pills items
+     * */
+    $("#pills-tab .nav-link").removeClass("active");
+    $(this).addClass("active");
+}
+
+
 $(document).ready(function () {
+
+    $("nav .navbar-nav .nav-link").on("click", active_navitems);
+    $("#pills-tab .nav-link").on("click", active_pillitems);
 
     let year = $("#pills-tab .nav-link.active").attr("year");
 
     load_year(year);
 
     $("#pills-tab .nav-link").on("click", function () {
-        year = $("this").attr("year");
+        year = $(this).attr("year");
         load_year(year);
     });
 });
