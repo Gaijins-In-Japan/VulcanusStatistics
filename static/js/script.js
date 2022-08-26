@@ -103,13 +103,21 @@ function load_year(year) {
 function active_navitems() {
     /* Add/remove active class from nav items
      * */
-    $(".nav-link").removeClass("active");
+    $("nav .navbar-nav .nav-link").removeClass("active");
+    $(this).addClass("active");
+}  // i'm sure these 2 functions can be merged
+function active_pillitems() {
+    /* Add/remove active class from pills items
+     * */
+    $("#pills-tab .nav-link").removeClass("active");
     $(this).addClass("active");
 }
+
 
 $(document).ready(function () {
 
     $("nav .navbar-nav .nav-link").on("click", active_navitems);
+    $("#pills-tab .nav-link").on("click", active_pillitems);
 
     let year = $("#pills-tab .nav-link.active").attr("year");
 
