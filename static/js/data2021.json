@@ -14,29 +14,29 @@
             "countries": {
                 "Belgium": 1,
                 "Cyprus": 2,
-                "France": 1,
+                "France": 2,
                 "Germany": 1,
                 "Greece": 1,
-                "Italy": 3,
-                "Poland": 1,
+                "Italy": 4,
+                "Poland": 2,
                 "Portugal": 2,
                 "Spain": 6
             },
-            "interviewed": [5, 9],
-            "informed": [3, 11],
-            "studies": [1, 0, 13, 0],
-            "japan": [3, 11],
-            "jlpt": [10, 2, 0, 1, 0, 0]
+            "interviewed": [6, 9],
+            "informed": [3, 12],
+            "studies": [1, 0, 15, 0],
+            "japan": [4, 12],
+            "jlpt": [11, 3, 0, 1, 0, 0]
         }
     },
     "Asial Corporation": {
-        "Engineering Division": [4, 0]
+        "Engineering Division": [4, 2]
     },
     "Omron Sinic X": {
-        "Robotics Group": [2, 0]
+        "Robotics Group": [2, 1]
     },
     "Yasui Architects": {
-        "Design Department": [1, 0]
+        "Design Department": [1, 1]
     },
     "Square-Enix": {
         "Advanced Technology Division": [1, 1]
@@ -51,19 +51,19 @@
         "R&D": [1, 0]
     },
     "Fujistsu Limited": {
-        "Autonomous Learning": [2, 1],
+        "Autonomous Learning": [2, 2],
         "Discovery Mathematics Project": [1, 1],
-        "Optimization Computing": [1, 0],
-        "Data & Security Lab.": [1, 0],
+        "Optimization Computing": [1, 1],
+        "Data & Security Lab.": [1, 1],
         "Advanced Computing Project": [1, 1]
     },
     "NTT Research Laboratories": {
         "NTT Research": [2, 2]
     },
     "Advanet": {
-        "IoT Business Solutions": [2, 1]
+        "IoT Business Solutions": [2, 2]
     },
     "NTT Data.": {
-        "Science Laboratories Media Information": [2, 1]
+        "Science Laboratories Media Information": [2, 2]
     }
 }

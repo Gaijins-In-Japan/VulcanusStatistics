@@ -9,8 +9,15 @@
         "preselected": 0,
         "selected": 0,
         "selected-info": {
-            "interviewed": [0, 0],
-            "informed": [0, 0],
+            "countries": {
+                "Spain": 3,
+                "Slovakia": 2,
+                "Turkey": 1,
+                "Germany": 1,
+                "Portugal": 1
+            },
+            "interviewed": [4, 3],
+            "informed": [0, 7],
             "studies": [0, 0, 0, 0],
             "japan": [0, 0],
             "jlpt": [0, 0, 0, 0, 0, 0]
@@ -23,44 +30,44 @@
         "R&D": [1, 0]
     },
     "Square-Enix": {
-        "Advanced Technology Division": [1, 0]
+        "Advanced Technology Division": [1, 1]
     },
     "Mitsubishi Materials": {
-        "Smart Factory Center": [2, 0]
+        "Smart Factory Center": [2, 2]
     },
     "Asial Corporation": {
-        "Engineering Division": [4, 0]
+        "Engineering Division": [4, 4]
     },
     "Advanet": {
-        "IoT Business Solution": [2, 0]
+        "IoT Business Solution": [2, 2]
     },
     "Mitsubishi Chemical": {
-        "Science & Innovation": [2, 0],
-        "Chemical Laboratory": [5, 0]
+        "Science & Innovation": [2, 1],
+        "Chemical Laboratory": [5, 1]
     },
     "NTT Research Laboratories": {
-        "Physics Research Group": [2, 0]
+        "Physics Research Group": [2, 2]
     },
     "Goldman Sachs Japan": {
-        "Engineering": [2, 0]
+        "Engineering": [2, 2]
     },
     "NTT Data": {
-        "System Engineering": [2, 0],
-        "Science Laboratories Media Information": [3, 0]
+        "System Engineering": [2, 1],
+        "Science Laboratories Media Information": [3, 3]
     },
     "Rakuten": {
-        "Innovation Studio": [3, 0]
+        "Innovation Studio": [3, 1]
     },
     "Fujitsu Laboratories": {
-        "ICT Systems Laboratory": [1, 0],
+        "ICT Systems Laboratory": [1, 1],
         "DevOps Unit": [2, 0],
-        "Logistics & Financial": [2, 0],
-        "Digital Innovation Core": [3, 0]
+        "Logistics & Financial": [2, 2],
+        "Digital Innovation Core": [3, 3]
     },
     "Solarig Japan": {
         "Unknown": [2, 0]
     },
     "Omron Sinic X": {
-        "Robotics Group": [2, 0]
+        "Robotics Group": [2, 2]
     }
 }
